@@ -6,8 +6,5 @@ import (
 )
 
 func main() {
-	input := []int{3, 3}
-	target := 6
-	result := solution.TwoSum(input, target)
-	fmt.Println(result)
+	fmt.Println(solution.ReformatDate("6th Jun 1933"))
 }

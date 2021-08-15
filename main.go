@@ -1,7 +1,8 @@
 package main
 
 import (
-	"leetcode/solution/myLinkedList"
+	"fmt"
+	"leetcode/solution"
 )
 
 func main() {
@@ -18,12 +19,14 @@ func main() {
 	//boxes := [...]int{2, 5, 10, 9, 4, 8, 6, 9, 9, 1}
 	//fmt.Println("expected", 16, "and got", solution.RemoveBoxes(boxes[:]))
 
-	ll := myLinkedList.Constructor()
-	ll.AddAtTail(1)
-	ll.Print()
-	ll.AddAtHead(2)
-	ll.Print()
-	ll.AddAtIndex(2, 3)
-	ll.Print()
-	ll.Get(0)
+	//ll := myLinkedList.Constructor()
+	//ll.AddAtTail(1)
+	//ll.Print()
+	//ll.AddAtHead(2)
+	//ll.Print()
+	//ll.AddAtIndex(2, 3)
+	//ll.Print()
+	//ll.Get(0)
+
+	fmt.Printf("%f\n", solution.LargestTriangleArea([][]int{{-2, -11}, {99, 71}, {1, 4}, {0, 2}, {1, 0}, {2, 0}, {3, 5}, {4, 7}}))
 }

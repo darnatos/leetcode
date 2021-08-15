@@ -1,5 +1,7 @@
 package solution
 
+import "leetcode/util"
+
 var dpTable [][][]int
 
 func RemoveBoxes(boxes []int) int {
@@ -24,7 +26,7 @@ func dp(boxes []int, l, r, k int) int {
 
 	for m := l + 1; m <= r; m++ {
 		if boxes[l] == boxes[m] {
-			points = max(points, dp(boxes, m, r, k+1)+dp(boxes, l+1, m-1, 0))
+			points = util.Max(points, dp(boxes, m, r, k+1)+dp(boxes, l+1, m-1, 0))
 		}
 	}
 
@@ -41,11 +43,4 @@ func new3DArray(n int) *[][][]int {
 		}
 	}
 	return &t
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }

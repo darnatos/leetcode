@@ -28,5 +28,7 @@ func main() {
 	//ll.Print()
 	//ll.Get(0)
 
-	fmt.Printf("%f\n", solution.LargestTriangleArea([][]int{{-2, -11}, {99, 71}, {1, 4}, {0, 2}, {1, 0}, {2, 0}, {3, 5}, {4, 7}}))
+	//fmt.Printf("%f\n", solution.LargestTriangleArea([][]int{{-2, -11}, {99, 71}, {1, 4}, {0, 2}, {1, 0}, {2, 0}, {3, 5}, {4, 7}}))
+
+	fmt.Println(solution.NumberOfSubarrays([]int{1, 1, 3, 32, 1, 2, 13}, 4))
 }

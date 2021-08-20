@@ -13,3 +13,10 @@ func Min(a, b int) int {
 	}
 	return a
 }
+
+func Abs(s int) int {
+	if s < 0 {
+		return -s
+	}
+	return s
+}

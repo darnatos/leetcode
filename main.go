@@ -39,10 +39,12 @@ func main() {
 	//fmt.Println(solution.NumIslands([][]byte{{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}}))
 	//fmt.Println(solution.MinEatingSpeed([]int{3, 6, 7, 11}, 8))
 	//fmt.Println(solution.StrStr("hello", "ll"))
-	fmt.Println(solution.FindMedianSortedArrays([]int{1, 1, 2, 3}, []int{2, 4}))
-	fmt.Println(solution.FindMedianSortedArrays([]int{1,3}, []int{2, 4}))
-	fmt.Println(solution.FindMedianSortedArrays([]int{1,3}, []int{2}))
-	fmt.Println(solution.FindMedianSortedArrays([]int{0, 0}, []int{0, 0}))
-	fmt.Println(solution.FindMedianSortedArrays([]int{}, []int{1}))
-	fmt.Println(solution.FindMedianSortedArrays([]int{2}, []int{}))
+	//fmt.Println(solution.FindMedianSortedArrays([]int{1, 1, 2, 3}, []int{2, 4}))
+	//fmt.Println(solution.FindMedianSortedArrays([]int{1,3}, []int{2, 4}))
+	//fmt.Println(solution.FindMedianSortedArrays([]int{1,3}, []int{2}))
+	//fmt.Println(solution.FindMedianSortedArrays([]int{0, 0}, []int{0, 0}))
+	//fmt.Println(solution.FindMedianSortedArrays([]int{}, []int{1}))
+	//fmt.Println(solution.FindMedianSortedArrays([]int{2}, []int{}))
+	fmt.Println(solution.ThreeSumClosest([]int{0, 2, 1, -3}, 1))
+
 }

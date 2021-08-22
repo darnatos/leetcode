@@ -36,5 +36,6 @@ func main() {
 	//fmt.Println(solution.NumRollsToTargetDP(4, 6, 12))
 	//fmt.Println(solution.MinDistance("intention", "execution"))
 	//fmt.Println(solution.ArrayRankTransform([]int{1235, 33, 2553, 12, 133, 133, 256}))
-	fmt.Println(solution.NumIslands([][]byte{{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}}))
+	//fmt.Println(solution.NumIslands([][]byte{{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}}))
+	fmt.Println(solution.MinEatingSpeed([]int{3, 6, 7, 11}, 8))
 }

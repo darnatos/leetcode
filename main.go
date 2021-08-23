@@ -45,6 +45,6 @@ func main() {
 	//fmt.Println(solution.FindMedianSortedArrays([]int{0, 0}, []int{0, 0}))
 	//fmt.Println(solution.FindMedianSortedArrays([]int{}, []int{1}))
 	//fmt.Println(solution.FindMedianSortedArrays([]int{2}, []int{}))
-	fmt.Println(solution.ThreeSumClosest([]int{0, 2, 1, -3}, 1))
-
+	//fmt.Println(solution.ThreeSumClosest([]int{0, 2, 1, -3}, 1))
+	fmt.Println(solution.NumPermsDISequence("DIDIDIDIDDDDIDIIIIIIIIIIIIIIIIDIDIDDDDDD"))
 }

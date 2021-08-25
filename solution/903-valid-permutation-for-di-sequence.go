@@ -1,5 +1,7 @@
 package solution
 
+import "fmt"
+
 func NumPermsDISequence(s string) int {
 	n := len(s)
 	dp := make([]int, n+1)
@@ -22,6 +24,7 @@ func NumPermsDISequence(s string) int {
 				dp2[j] = cur
 			}
 		}
+		fmt.Println(dp, dp2)
 		copy(dp, dp2)
 	}
 	return dp[0]

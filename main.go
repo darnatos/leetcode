@@ -46,5 +46,6 @@ func main() {
 	//fmt.Println(solution.FindMedianSortedArrays([]int{}, []int{1}))
 	//fmt.Println(solution.FindMedianSortedArrays([]int{2}, []int{}))
 	//fmt.Println(solution.ThreeSumClosest([]int{0, 2, 1, -3}, 1))
-	fmt.Println(solution.NumPermsDISequence("DIDIDIDIDDDDIDIIIIIIIIIIIIIIIIDIDIDDDDDD"))
+	//fmt.Println(solution.NumPermsDISequence("DDD"))
+	fmt.Println(solution.ZigzagConvert("PAYPALISHIRING", 3))
 }

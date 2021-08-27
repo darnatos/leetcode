@@ -51,5 +51,7 @@ func main() {
 	//fmt.Println(solution.OrangesRotting([][]int{{2, 1, 1}, {1, 1, 0}, {0, 1, 2}}))
 	//fmt.Println(solution.LargestSumOfAverages([]int{1, 5, 3, 6, 7, 9, 13, 2}, 4))
 	//fmt.Println(solution.ThousandSeparator(1987))
-	fmt.Println(solution.LongestPalindrome("qqwerbobxdbobdxerewqweasdx"))
+	//fmt.Println(solution.LongestPalindrome("qqwerbobxdbobdxerewqweasdx"))
+	//fmt.Println(solution.OrangesRotting([][]int{{2, 1, 1}, {1, 1, 0}, {0, 1, 2}}))
+	fmt.Println(solution.MinDominoRotations([]int{2, 2, 2, 2, 1, 1, 2, 2, 1, 1}, []int{1, 1, 1, 2, 2, 2, 2, 2, 2, 2}))
 }

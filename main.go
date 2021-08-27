@@ -54,5 +54,7 @@ func main() {
 	//fmt.Println(solution.LongestPalindrome("qqwerbobxdbobdxerewqweasdx"))
 	//fmt.Println(solution.OrangesRotting([][]int{{2, 1, 1}, {1, 1, 0}, {0, 1, 2}}))
 	//fmt.Println(solution.MinDominoRotations([]int{2, 2, 2, 2, 1, 1, 2, 2, 1, 1}, []int{1, 1, 1, 2, 2, 2, 2, 2, 2, 2}))
-	fmt.Println(solution.MinimumTotal([][]int{{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}}))
+	//fmt.Println(solution.MinimumTotal([][]int{{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}}))
+	fmt.Println(solution.Maximum69Number(6969))
+
 }

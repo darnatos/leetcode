@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"strconv"
+	"leetcode/solution"
 )
 
 func main() {
@@ -60,8 +60,8 @@ func main() {
 	//fmt.Println(solution.NumSubarraysWithSumMap([]int{0, 0, 0, 0, 0, 1, 0, 0, 0}, 0))
 	//fmt.Println(solution.NumSubarraysWithSum2P([]int{1, 0, 1, 0, 1}, 2))
 	//fmt.Println(solution.NumSubarraysWithSumMap([]int{1, 0, 1, 0, 1}, 2))
-	fmt.Println(strconv.FormatInt(-5, 2))
-	fmt.Println(strconv.FormatInt(5, 2))
-	fmt.Println(strconv.FormatInt(-5 & 5, 2))
-
+	//fmt.Println(strconv.FormatInt(-5, 2))
+	//fmt.Println(strconv.FormatInt(5, 2))
+	//fmt.Println(strconv.FormatInt(-5 & 5, 2))
+	fmt.Println(solution.GenerateParenthesis(4))
 }

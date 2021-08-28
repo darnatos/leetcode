@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"leetcode/solution"
+	"strconv"
 )
 
 func main() {
@@ -56,9 +56,12 @@ func main() {
 	//fmt.Println(solution.MinDominoRotations([]int{2, 2, 2, 2, 1, 1, 2, 2, 1, 1}, []int{1, 1, 1, 2, 2, 2, 2, 2, 2, 2}))
 	//fmt.Println(solution.MinimumTotal([][]int{{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}}))
 	//fmt.Println(solution.Maximum69Number(6969))
-	fmt.Println(solution.NumSubarraysWithSum2P([]int{0, 0, 0, 0, 0, 1, 0, 0, 0}, 0))
-	fmt.Println(solution.NumSubarraysWithSumMap([]int{0, 0, 0, 0, 0, 1, 0, 0, 0}, 0))
-	fmt.Println(solution.NumSubarraysWithSum2P([]int{1, 0, 1, 0, 1}, 2))
-	fmt.Println(solution.NumSubarraysWithSumMap([]int{1, 0, 1, 0, 1}, 2))
+	//fmt.Println(solution.NumSubarraysWithSum2P([]int{0, 0, 0, 0, 0, 1, 0, 0, 0}, 0))
+	//fmt.Println(solution.NumSubarraysWithSumMap([]int{0, 0, 0, 0, 0, 1, 0, 0, 0}, 0))
+	//fmt.Println(solution.NumSubarraysWithSum2P([]int{1, 0, 1, 0, 1}, 2))
+	//fmt.Println(solution.NumSubarraysWithSumMap([]int{1, 0, 1, 0, 1}, 2))
+	fmt.Println(strconv.FormatInt(-5, 2))
+	fmt.Println(strconv.FormatInt(5, 2))
+	fmt.Println(strconv.FormatInt(-5 & 5, 2))
 
 }

@@ -49,5 +49,6 @@ func main() {
 	//fmt.Println(solution.NumPermsDISequence("DDD"))
 	//fmt.Println(solution.ZigzagConvert("PAYPALISHIRING", 3))
 	//fmt.Println(solution.OrangesRotting([][]int{{2, 1, 1}, {1, 1, 0}, {0, 1, 2}}))
-	fmt.Println(solution.LargestSumOfAverages([]int{1, 5, 3, 6, 7, 9, 13, 2}, 4))
+	//fmt.Println(solution.LargestSumOfAverages([]int{1, 5, 3, 6, 7, 9, 13, 2}, 4))
+	fmt.Println(solution.ThousandSeparator(1987))
 }

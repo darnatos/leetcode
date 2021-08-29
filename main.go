@@ -65,5 +65,6 @@ func main() {
 	//fmt.Println(strconv.FormatInt(-5 & 5, 2))
 	//fmt.Println(solution.GenerateParenthesis(4))
 	//fmt.Println(solution.FindItinerary([][]string{{"JFK", "SFO"}, {"JFK", "ATL"}, {"SFO", "ATL"}, {"ATL", "JFK"}, {"ATL", "SFO"}}))
-	fmt.Println(solution.Search([]int{4, 5, 6, 7, 1, 2, 3, 4}, 1))
+	//fmt.Println(solution.Search([]int{4, 5, 6, 7, 1, 2, 3, 4}, 1))
+	fmt.Println(solution.CombinationSum([]int{1, 2, 4, 7, 8, 9, 34}, 40))
 }

@@ -70,5 +70,6 @@ func main() {
 	//fmt.Println(solution.GroupAnagrams([]string{"aed", "ead", "dae"}))
 	//fmt.Println(solution.SpiralOrder([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
 	//fmt.Println(solution.MaxSubArray([]int{-1, 3, 2, -5, 1, 4, -6}))
-	fmt.Println(solution.CanJump([]int{3, 2, 1, 0, 1}))
+	//fmt.Println(solution.CanJump([]int{3, 2, 1, 0, 1}))
+	fmt.Println(solution.MergeIntervals([][]int{{3, 5}, {1, 3}, {1, 8}, {11, 14}}))
 }

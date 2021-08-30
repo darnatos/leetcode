@@ -68,5 +68,6 @@ func main() {
 	//fmt.Println(solution.Search([]int{4, 5, 6, 7, 1, 2, 3, 4}, 1))
 	//fmt.Println(solution.CombinationSum([]int{1, 2, 4, 7, 8, 9, 34}, 40))
 	//fmt.Println(solution.GroupAnagrams([]string{"aed", "ead", "dae"}))
-	fmt.Println(solution.SpiralOrder([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
+	//fmt.Println(solution.SpiralOrder([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
+	fmt.Println(solution.MaxSubArray([]int{-1, 3, 2, -5, 1, 4, -6}))
 }

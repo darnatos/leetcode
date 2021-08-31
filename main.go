@@ -73,5 +73,6 @@ func main() {
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 0, 1}))
 	//fmt.Println(solution.MergeIntervals([][]int{{3, 5}, {1, 3}, {1, 8}, {11, 14}}))
 	//fmt.Println(solution.MyAtoi("   -9251235e3"))
-	fmt.Println(solution.Permute([]int{1, 2, 3, 4, 5}))
+	//fmt.Println(solution.Permute([]int{1, 2, 3, 4, 5}))
+	fmt.Println(solution.FindMin([]int{7, 8, 9, 1, 2, 3, 4, 5}))
 }

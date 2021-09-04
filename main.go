@@ -75,5 +75,6 @@ func main() {
 	//fmt.Println(solution.MyAtoi("   -9251235e3"))
 	//fmt.Println(solution.Permute([]int{1, 2, 3, 4, 5}))
 	//fmt.Println(solution.FindMin([]int{7, 8, 9, 1, 2, 3, 4, 5}))
-	fmt.Println(solution.CriticalConnections(4, [][]int{{0, 1}, {1, 2}, {2, 0}, {1, 3}}))
+	//fmt.Println(solution.CriticalConnections(4, [][]int{{0, 1}, {1, 2}, {2, 0}, {1, 3}}))
+	fmt.Println(solution.GetSum(123,999))
 }

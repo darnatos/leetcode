@@ -79,5 +79,6 @@ func main() {
 	//fmt.Println(solution.GetSum(123,999))
 	//fmt.Println(solution.AddRungs([]int{3, 5, 8, 9, 10, 13}, 1))
 	//fmt.Println(solution.LargestNumber([]int{9, 99, 90, 97, 5, 8, 9, 10, 13}))
-	fmt.Println(solution.UniquePaths(5, 8))
+	//fmt.Println(solution.GetSum(123,999))
+	fmt.Println(solution.UniquePaths(20, 20))
 }

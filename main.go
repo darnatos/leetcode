@@ -78,5 +78,6 @@ func main() {
 	//fmt.Println(solution.CriticalConnections(4, [][]int{{0, 1}, {1, 2}, {2, 0}, {1, 3}}))
 	//fmt.Println(solution.GetSum(123,999))
 	//fmt.Println(solution.AddRungs([]int{3, 5, 8, 9, 10, 13}, 1))
-	fmt.Println(solution.LargestNumber([]int{9, 99, 90, 97, 5, 8, 9, 10, 13}))
+	//fmt.Println(solution.LargestNumber([]int{9, 99, 90, 97, 5, 8, 9, 10, 13}))
+	fmt.Println(solution.UniquePaths(5, 8))
 }

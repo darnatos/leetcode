@@ -82,5 +82,7 @@ func main() {
 	//fmt.Println(solution.UniquePaths(5, 8))
 	//fmt.Println(solution.GetSum(123,999))
 	//fmt.Println(solution.FindPeakElement([]int{5, 3, 1, 2, 3, 4, 5, 3}))
-	fmt.Println(solution.Divide(124124, 232))
+	//fmt.Println(solution.Divide(124124, 232))
+	//fmt.Println(solution.Divide(math.MinInt32, -1))
+	fmt.Println(solution.TopKFrequent([]int{5, 3, 1, 1, 1, 3, 3, 6, 5, 12, 2, 3, 4, 5, 3}, 5))
 }

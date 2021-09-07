@@ -81,5 +81,6 @@ func main() {
 	//fmt.Println(solution.LargestNumber([]int{9, 99, 90, 97, 5, 8, 9, 10, 13}))
 	//fmt.Println(solution.UniquePaths(5, 8))
 	//fmt.Println(solution.GetSum(123,999))
-	fmt.Println(solution.FindPeakElement([]int{5, 3, 1, 2, 3, 4, 5, 3}))
+	//fmt.Println(solution.FindPeakElement([]int{5, 3, 1, 2, 3, 4, 5, 3}))
+	fmt.Println(solution.Divide(124124, 232))
 }

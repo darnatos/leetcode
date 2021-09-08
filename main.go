@@ -86,6 +86,6 @@ func main() {
 	//fmt.Println(solution.Divide(math.MinInt32, -1))
 	//fmt.Println(solution.TopKFrequent([]int{5, 3, 1, 1, 1, 3, 3, 6, 5, 12, 2, 3, 4, 5, 3}, 5))
 	//fmt.Println(solution.Jump2([]int{5, 3, 1, 1, 1, 3, 3, 6, 5, 12, 2, 3, 4, 5, 3}))
-	fmt.Println(solution.MatrixRankTransform([][]int{{11, 13}, {15, 17}}))
-	fmt.Println(solution.MatrixRankTransform([][]int{{1, 2, 4}, {3, 4, 8}, {8, 2, 8}}))
+	fmt.Println(solution.MatrixRankTransform2([][]int{{11, 13}, {15, 17}}))
+	fmt.Println(solution.MatrixRankTransform2([][]int{{1, 2, 4}, {3, 4, 8}, {8, 2, 8}}))
 }

@@ -89,5 +89,6 @@ func main() {
 	//fmt.Println(solution.MatrixRankTransform2([][]int{{11, 13}, {15, 17}}))
 	//fmt.Println(solution.MatrixRankTransform2([][]int{{11, 13}, {15, 17}}))
 	//fmt.Println(solution.InsertInterval([][]int{{1, 2}, {3, 4}, {8, 10}}, []int{1, 5}))
-	fmt.Println(solution.NumTeams([]int{1, 3, 5, 4, 7, 8, 2, 6}))
+	//fmt.Println(solution.NumTeams([]int{1, 3, 5, 4, 7, 8, 2, 6}))
+	fmt.Println(solution.NumDecodings("987654321181724"))
 }

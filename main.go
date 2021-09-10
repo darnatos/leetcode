@@ -91,5 +91,6 @@ func main() {
 	//fmt.Println(solution.InsertInterval([][]int{{1, 2}, {3, 4}, {8, 10}}, []int{1, 5}))
 	//fmt.Println(solution.NumTeams([]int{1, 3, 5, 4, 7, 8, 2, 6}))
 	//fmt.Println(solution.NumDecodings("987654321181724"))
-	fmt.Println(solution.SortArray([]int{1, 3, 5, 4, 7, 8, 2, 6}))
+	//fmt.Println(solution.SortArray([]int{1, 3, 5, 4, 7, 8, 2, 6}))
+	fmt.Println(solution.IsPalindrome("A man, a plan, a canal: Panama"))
 }

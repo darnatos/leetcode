@@ -88,5 +88,6 @@ func main() {
 	//fmt.Println(solution.Jump2([]int{5, 3, 1, 1, 1, 3, 3, 6, 5, 12, 2, 3, 4, 5, 3}))
 	//fmt.Println(solution.MatrixRankTransform2([][]int{{11, 13}, {15, 17}}))
 	//fmt.Println(solution.MatrixRankTransform2([][]int{{11, 13}, {15, 17}}))
-	fmt.Println(solution.InsertInterval([][]int{{1, 2}, {3, 4}, {8, 10}}, []int{1, 5}))
+	//fmt.Println(solution.InsertInterval([][]int{{1, 2}, {3, 4}, {8, 10}}, []int{1, 5}))
+	fmt.Println(solution.NumTeams([]int{1, 3, 5, 4, 7, 8, 2, 6}))
 }

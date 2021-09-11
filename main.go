@@ -92,5 +92,7 @@ func main() {
 	//fmt.Println(solution.NumTeams([]int{1, 3, 5, 4, 7, 8, 2, 6}))
 	//fmt.Println(solution.NumDecodings("987654321181724"))
 	//fmt.Println(solution.SortArray([]int{1, 3, 5, 4, 7, 8, 2, 6}))
-	fmt.Println(solution.IsPalindrome("A man, a plan, a canal: Panama"))
+	//fmt.Println(solution.IsPalindrome("A man, a plan, a canal: Panama"))
+	fmt.Println(solution.LoudAndRich([][]int{{1, 0}, {2, 1}, {3, 1}, {3, 7}, {4, 3}, {5, 3}, {6, 3}}, []int{3, 2, 5, 4, 6, 1, 7, 0}))
+	fmt.Println(solution.LoudAndRich2([][]int{{1, 0}, {2, 1}, {3, 1}, {3, 7}, {4, 3}, {5, 3}, {6, 3}}, []int{3, 2, 5, 4, 6, 1, 7, 0}))
 }

@@ -95,5 +95,6 @@ func main() {
 	//fmt.Println(solution.IsPalindrome("A man, a plan, a canal: Panama"))
 	//fmt.Println(solution.LoudAndRich([][]int{{1, 0}, {2, 1}, {3, 1}, {3, 7}, {4, 3}, {5, 3}, {6, 3}}, []int{3, 2, 5, 4, 6, 1, 7, 0}))
 	//fmt.Println(solution.LoudAndRich2([][]int{{1, 0}, {2, 1}, {3, 1}, {3, 7}, {4, 3}, {5, 3}, {6, 3}}, []int{3, 2, 5, 4, 6, 1, 7, 0}))
-	fmt.Println(solution.MaxProfitAssignment([]int{2, 4, 6, 8}, []int{10, 20, 40, 80}, []int{2, 3, 7, 12}))
+	//fmt.Println(solution.MaxProfitAssignment([]int{2, 4, 6, 8}, []int{10, 20, 40, 80}, []int{2, 3, 7, 12}))
+	fmt.Println(solution.DayOfYear("2012-03-24"))
 }

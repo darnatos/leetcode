@@ -98,5 +98,6 @@ func main() {
 	//fmt.Println(solution.MaxProfitAssignment([]int{2, 4, 6, 8}, []int{10, 20, 40, 80}, []int{2, 3, 7, 12}))
 	//fmt.Println(solution.DayOfYear("2012-03-24"))
 	//fmt.Println(solution.ClimbStairs(20))
-	fmt.Println(solution.CrackSafe(3, 3))
+	//fmt.Println(solution.CrackSafe(3, 3))
+	fmt.Println(solution.Rob([]int{1, 2, 3, 1, 10, 2, 2, 10, 2, 4, 900, 224, 932, 919, 999}))
 }

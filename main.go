@@ -97,5 +97,6 @@ func main() {
 	//fmt.Println(solution.LoudAndRich2([][]int{{1, 0}, {2, 1}, {3, 1}, {3, 7}, {4, 3}, {5, 3}, {6, 3}}, []int{3, 2, 5, 4, 6, 1, 7, 0}))
 	//fmt.Println(solution.MaxProfitAssignment([]int{2, 4, 6, 8}, []int{10, 20, 40, 80}, []int{2, 3, 7, 12}))
 	//fmt.Println(solution.DayOfYear("2012-03-24"))
-	fmt.Println(solution.ClimbStairs(20))
+	//fmt.Println(solution.ClimbStairs(20))
+	fmt.Println(solution.CrackSafe(3, 3))
 }

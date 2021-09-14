@@ -99,7 +99,8 @@ func main() {
 	//fmt.Println(solution.DayOfYear("2012-03-24"))
 	//fmt.Println(solution.ClimbStairs(20))
 	//fmt.Println(solution.CrackSafe(3, 3))
-	zeroesMatrix := [][]int{{1, 1, 0}, {1, 0, 1}, {1, 1, 1}}
-	solution.SetZeroes(zeroesMatrix)
-	fmt.Println(zeroesMatrix)
+	//zeroesMatrix := [][]int{{1, 1, 0}, {1, 0, 1}, {1, 1, 1}}
+	//solution.SetZeroes(zeroesMatrix)
+	//fmt.Println(zeroesMatrix)
+	fmt.Println(solution.CoinChange([]int{2, 3, 7}, 47))
 }

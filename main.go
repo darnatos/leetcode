@@ -103,5 +103,7 @@ func main() {
 	//solution.SetZeroes(zeroesMatrix)
 	//fmt.Println(zeroesMatrix)
 	//fmt.Println(solution.CoinChange([]int{2, 3, 7}, 47))
-	fmt.Println(solution.ToGoatLatin("Each man speak Goat Latin"))
+	//fmt.Println(solution.ToGoatLatin("Each man speak Goat Latin"))
+	fmt.Println(solution.WordBreak("catsandog", []string{"cats", "dog", "sand", "and", "cat"}))
+	fmt.Println(solution.WordBreak("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab", []string{"a", "aaa", "aaaaa", "aaaaaa", "aaaaaaaaaa"}))
 }

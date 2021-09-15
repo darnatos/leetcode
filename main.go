@@ -102,5 +102,6 @@ func main() {
 	//zeroesMatrix := [][]int{{1, 1, 0}, {1, 0, 1}, {1, 1, 1}}
 	//solution.SetZeroes(zeroesMatrix)
 	//fmt.Println(zeroesMatrix)
-	fmt.Println(solution.CoinChange([]int{2, 3, 7}, 47))
+	//fmt.Println(solution.CoinChange([]int{2, 3, 7}, 47))
+	fmt.Println(solution.ToGoatLatin("Each man speak Goat Latin"))
 }

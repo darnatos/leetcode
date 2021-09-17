@@ -106,5 +106,6 @@ func main() {
 	//fmt.Println(solution.ToGoatLatin("Each man speak Goat Latin"))
 	//fmt.Println(solution.WordBreak("catsandog", []string{"cats", "dog", "sand", "and", "cat"}))
 	//fmt.Println(solution.WordBreak("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab", []string{"a", "aaa", "aaaaa", "aaaaaa", "aaaaaaaaaa"}))
-	fmt.Println(solution.MaxTurbulenceSize([]int{1, 1, 2, 1, 3, 2, 1, 2, 1, 4, 1, 6, 4, 5}))
+	//fmt.Println(solution.MaxTurbulenceSize([]int{1, 1, 2, 1, 3, 2, 1, 2, 1, 4, 1, 6, 4, 5}))
+	fmt.Println(solution.HighestPeak([][]int{{1, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 1, 0}}))
 }

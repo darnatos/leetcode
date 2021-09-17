@@ -109,6 +109,8 @@ func main() {
 	//fmt.Println(solution.MaxTurbulenceSize([]int{1, 1, 2, 1, 3, 2, 1, 2, 1, 4, 1, 6, 4, 5}))
 	//fmt.Println(solution.HighestPeak([][]int{{1, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 1, 0}}))
 	//fmt.Println(solution.IntervalIntersection([][]int{{1, 2}, {3, 7}, {10, 15}}, [][]int{{2, 3}, {4, 5}, {6, 7}, {13, 15}}))
-	fmt.Println(solution.Rob2([]int{3, 1, 3, 1, 3}))
-	fmt.Println(solution.Rob2([]int{3, 1, 3, 1, 1, 100}))
+	//fmt.Println(solution.IntervalIntersection([][]int{{1, 2}, {3, 7}, {10, 15}}, [][]int{{2, 3}, {4, 5}, {6, 7}, {13, 15}}))
+	//fmt.Println(solution.Rob2([]int{3, 1, 3, 1, 3}))
+	//fmt.Println(solution.Rob2([]int{3, 1, 3, 1, 1, 100}))
+	fmt.Println(solution.Trap([]int{1, 0, 4, 3, 2, 1, 0, 0, 4, 1, 3, 2, 4, 0, 0, 2}))
 }

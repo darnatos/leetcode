@@ -113,5 +113,10 @@ func main() {
 	//fmt.Println(solution.Rob2([]int{3, 1, 3, 1, 3}))
 	//fmt.Println(solution.Rob2([]int{3, 1, 3, 1, 1, 100}))
 	//fmt.Println(solution.Trap([]int{1, 0, 4, 3, 2, 1, 0, 0, 4, 1, 3, 2, 4, 0, 0, 2}))
-	fmt.Println(solution.AddOperators("105", 5))
+	//fmt.Println(solution.AddOperators("105", 5))
+	dts := solution.NewDetectSquares()
+	dts.Add([]int{5, 10})
+	dts.Add([]int{15, 10})
+	dts.Add([]int{15, 20})
+	fmt.Println(dts.Count([]int{5, 20}))
 }

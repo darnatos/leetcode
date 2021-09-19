@@ -120,5 +120,6 @@ func main() {
 	//dts.Add([]int{15, 20})
 	//fmt.Println(dts.Count([]int{5, 20}))
 	//fmt.Println(solution.SumOfBeauties([]int{3, 3, 2, 5, 6, 9, 2, 3, 10, 11}))
-	fmt.Println(solution.CountSubstrings("asdasdedsa"))
+	//fmt.Println(solution.CountSubstrings("asdasdedsa"))
+	fmt.Println(solution.LongestSubsequenceRepeatedK("arzwpdlarzwpl", 2))
 }

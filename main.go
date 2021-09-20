@@ -125,5 +125,6 @@ func main() {
 	//fmt.Println(solution.LongestValidParentheses("()()))()()((()()()()())))"))
 	//fmt.Println(solution.PermuteUnique([]int{1, 1, 1, 2, 2, 3}))
 	//fmt.Println(solution.NumDistinct("rabbbit", "rabbit"))
-	fmt.Println(solution.FindRotateSteps("godding", "gd"))
+	//fmt.Println(solution.FindRotateSteps("godding", "gd"))
+	fmt.Println(solution.NumSplits("acbadbaada"))
 }

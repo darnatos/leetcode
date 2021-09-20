@@ -6,10 +6,10 @@ var dpTable [][][]int
 
 func RemoveBoxes(boxes []int) int {
 	dpTable = *new3DArray(len(boxes))
-	return dp(boxes, 0, len(boxes)-1, 0)
+	return rbHelper(boxes, 0, len(boxes)-1, 0)
 }
 
-func dp(boxes []int, l, r, k int) int {
+func rbHelper(boxes []int, l, r, k int) int {
 	if l > r {
 		return 0
 	}
@@ -22,11 +22,11 @@ func dp(boxes []int, l, r, k int) int {
 		l++
 		k++
 	}
-	points := (k+1)*(k+1) + dp(boxes, l+1, r, 0)
+	points := (k+1)*(k+1) + rbHelper(boxes, l+1, r, 0)
 
 	for m := l + 1; m <= r; m++ {
 		if boxes[l] == boxes[m] {
-			points = util.Max(points, dp(boxes, m, r, k+1)+dp(boxes, l+1, m-1, 0))
+			points = util.Max(points, rbHelper(boxes, m, r, k+1)+rbHelper(boxes, l+1, m-1, 0))
 		}
 	}
 

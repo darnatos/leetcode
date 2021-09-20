@@ -123,5 +123,6 @@ func main() {
 	//fmt.Println(solution.CountSubstrings("asdasdedsa"))
 	//fmt.Println(solution.LongestSubsequenceRepeatedK("arzwpdlarzwpl", 2))
 	//fmt.Println(solution.LongestValidParentheses("()()))()()((()()()()())))"))
-	fmt.Println(solution.PermuteUnique([]int{1, 1, 1, 2, 2, 3}))
+	//fmt.Println(solution.PermuteUnique([]int{1, 1, 1, 2, 2, 3}))
+	fmt.Println(solution.NumDistinct("rabbbit", "rabbit"))
 }

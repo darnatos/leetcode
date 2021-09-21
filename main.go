@@ -127,5 +127,6 @@ func main() {
 	//fmt.Println(solution.NumDistinct("rabbbit", "rabbit"))
 	//fmt.Println(solution.FindRotateSteps("godding", "gd"))
 	//fmt.Println(solution.NumSplits("acbadbaada"))
-	fmt.Println(solution.Tictactoe([][]int{{0, 0}, {2, 0}, {1, 1}, {2, 1}, {2, 2}}))
+	//fmt.Println(solution.Tictactoe([][]int{{0, 0}, {2, 0}, {1, 1}, {2, 1}, {2, 2}}))
+	fmt.Println(solution.CountAndSay(19))
 }

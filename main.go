@@ -129,5 +129,6 @@ func main() {
 	//fmt.Println(solution.NumSplits("acbadbaada"))
 	//fmt.Println(solution.Tictactoe([][]int{{0, 0}, {2, 0}, {1, 1}, {2, 1}, {2, 2}}))
 	//fmt.Println(solution.CountAndSay(19))
-	fmt.Println(solution.SumGame("?3295???"))
+	//fmt.Println(solution.SumGame("?3295???"))
+	fmt.Println(solution.WordBreak2("pineapplepenapple", []string{"apple", "pen", "applepen", "pine", "pineapple"}))
 }

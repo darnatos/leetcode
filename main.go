@@ -128,5 +128,6 @@ func main() {
 	//fmt.Println(solution.FindRotateSteps("godding", "gd"))
 	//fmt.Println(solution.NumSplits("acbadbaada"))
 	//fmt.Println(solution.Tictactoe([][]int{{0, 0}, {2, 0}, {1, 1}, {2, 1}, {2, 2}}))
-	fmt.Println(solution.CountAndSay(19))
+	//fmt.Println(solution.CountAndSay(19))
+	fmt.Println(solution.SumGame("?3295???"))
 }

@@ -1,7 +1,8 @@
 package main
 
 import (
-	"leetcode/solution/myLinkedList"
+	"fmt"
+	"leetcode/solution"
 )
 
 func main() {
@@ -130,9 +131,9 @@ func main() {
 	//fmt.Println(solution.CountAndSay(19))
 	//fmt.Println(solution.SumGame("?3295???"))
 	//fmt.Println(solution.WordBreak2("pineapplepenapple", []string{"apple", "pen", "applepen", "pine", "pineapple"}))
-	n := myLinkedList.NewListNode([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}...)
-	n.Print()
-	n = myLinkedList.ReverseKGroup(n, 3)
-	n.Print()
-
+	//n := myLinkedList.NewListNode([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}...)
+	//n.Print()
+	//n = myLinkedList.ReverseKGroup(n, 3)
+	//n.Print()
+	fmt.Println(solution.MaxLength([]string{"abcdefghijklmna", "a", "b", "c","ue","ei","cdx"}))
 }

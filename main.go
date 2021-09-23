@@ -136,5 +136,7 @@ func main() {
 	//n = myLinkedList.ReverseKGroup(n, 3)
 	//n.Print()
 	//fmt.Println(solution.MaxLength([]string{"abcdefghijklmna", "a", "b", "c","ue","ei","cdx"}))
-	fmt.Println(solution.IsSelfCrossing([]int{1, 2, 3, 4, 5, 6, 5, 2}))
+	//fmt.Println(solution.IsSelfCrossing([]int{1, 2, 3, 4, 5, 6, 5, 2}))
+	fmt.Println(solution.BreakPalindrome("aabaa"))
+	fmt.Println(solution.BreakPalindrome("bbaabb"))
 }

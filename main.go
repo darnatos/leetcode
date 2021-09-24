@@ -139,5 +139,6 @@ func main() {
 	//fmt.Println(solution.IsSelfCrossing([]int{1, 2, 3, 4, 5, 6, 5, 2}))
 	//fmt.Println(solution.BreakPalindrome("aabaa"))
 	//fmt.Println(solution.BreakPalindrome("bbaabb"))
-	fmt.Println(solution.RemoveComments([]string{"/*Test program */", "int main()", "{ ", "  // variable declaration ", "int a, b, c;", "/* This is a test", "   multiline  ", "   comment for ", "   testing */", "a = b + c;", "}"}))
+	//fmt.Println(solution.RemoveComments([]string{"/*Test program */", "int main()", "{ ", "  // variable declaration ", "int a, b, c;", "/* This is a test", "   multiline  ", "   comment for ", "   testing */", "a = b + c;", "}"}))
+	fmt.Println(solution.FirstMissingPositive([]int{2, 4, 6, 3, 9, 6, 3, 7, 1, 1, 3, 2, 6, 5, 9, 10, 11, 14, 16, 15, 15, 13, 9, 8}))
 }

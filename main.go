@@ -145,5 +145,6 @@ func main() {
 	//fmt.Println(solution.MinimumHammingDistance([]int{1, 2, 3, 4}, []int{2, 1, 4, 5}, [][]int{{0, 1}, {2, 3}}))
 	//fmt.Println(solution.ShortestPath([][]int{{0, 0, 0, 0, 0}, {1, 1, 1, 1, 0}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1},
 	//	{0, 0, 0, 0, 0}, {0, 1, 1, 1, 1}, {0, 1, 0, 1, 1}, {1, 1, 0, 0, 0}}, 3))
-	fmt.Println(solution.ShortestToChar("loveleetcode", 'e'))
+	//fmt.Println(solution.ShortestToChar("loveleetcode", 'e'))
+	fmt.Println(solution.CheckIfPrerequisite(3, [][]int{{1, 2}, {1, 0}, {2, 0}}, [][]int{{1, 0}, {1, 2}}))
 }

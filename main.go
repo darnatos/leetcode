@@ -147,5 +147,6 @@ func main() {
 	//	{0, 0, 0, 0, 0}, {0, 1, 1, 1, 1}, {0, 1, 0, 1, 1}, {1, 1, 0, 0, 0}}, 3))
 	//fmt.Println(solution.ShortestToChar("loveleetcode", 'e'))
 	//fmt.Println(solution.CheckIfPrerequisite(3, [][]int{{1, 2}, {1, 0}, {2, 0}}, [][]int{{1, 0}, {1, 2}}))
-	fmt.Println(solution.FindLeastNumOfUniqueInts([]int{1, 2, 1, 2, 3, 3, 3, 5, 4, 7, 7, 7}, 4))
+	//fmt.Println(solution.FindLeastNumOfUniqueInts([]int{1, 2, 1, 2, 3, 3, 3, 5, 4, 7, 7, 7}, 4))
+	fmt.Println(solution.PlaceWordInCrossword([][]byte{{' '}, {'#'}, {' '}, {'p'}, {' '}, {' '}, {' '}, {'#'}, {' '}}, "apple"))
 }

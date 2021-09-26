@@ -148,5 +148,6 @@ func main() {
 	//fmt.Println(solution.ShortestToChar("loveleetcode", 'e'))
 	//fmt.Println(solution.CheckIfPrerequisite(3, [][]int{{1, 2}, {1, 0}, {2, 0}}, [][]int{{1, 0}, {1, 2}}))
 	//fmt.Println(solution.FindLeastNumOfUniqueInts([]int{1, 2, 1, 2, 3, 3, 3, 5, 4, 7, 7, 7}, 4))
-	fmt.Println(solution.PlaceWordInCrossword([][]byte{{' '}, {'#'}, {' '}, {'p'}, {' '}, {' '}, {' '}, {'#'}, {' '}}, "apple"))
+	//fmt.Println(solution.PlaceWordInCrossword([][]byte{{' '}, {'#'}, {' '}, {'p'}, {' '}, {' '}, {' '}, {'#'}, {' '}}, "apple"))
+	fmt.Println(solution.GridGame([][]int{{4, 2, 3, 35, 7, 5, 8, 8}, {1, 5, 13, 6, 12, 11, 3, 4}}))
 }

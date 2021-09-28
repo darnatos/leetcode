@@ -150,5 +150,6 @@ func main() {
 	//fmt.Println(solution.FindLeastNumOfUniqueInts([]int{1, 2, 1, 2, 3, 3, 3, 5, 4, 7, 7, 7}, 4))
 	//fmt.Println(solution.PlaceWordInCrossword([][]byte{{' '}, {'#'}, {' '}, {'p'}, {' '}, {' '}, {' '}, {'#'}, {' '}}, "apple"))
 	//fmt.Println(solution.GridGame([][]int{{4, 2, 3, 35, 7, 5, 8, 8}, {1, 5, 13, 6, 12, 11, 3, 4}}))
-	fmt.Println(solution.MovesToChessboard([][]int{{1, 0, 0, 1}, {0, 1, 1, 0}, {0, 1, 1, 0}, {1, 0, 0, 1}}))
+	//fmt.Println(solution.MovesToChessboard([][]int{{1, 0, 0, 1}, {0, 1, 1, 0}, {0, 1, 1, 0}, {1, 0, 0, 1}}))
+	fmt.Println(solution.LongestConsecutive([]int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1, -6, -6, -3, -2, -2, 5, 1, 0, 0, -4, -5, -8, -8}))
 }

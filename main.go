@@ -153,5 +153,6 @@ func main() {
 	//fmt.Println(solution.MovesToChessboard([][]int{{1, 0, 0, 1}, {0, 1, 1, 0}, {0, 1, 1, 0}, {1, 0, 0, 1}}))
 	//fmt.Println(solution.LongestConsecutive([]int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1, -6, -6, -3, -2, -2, 5, 1, 0, 0, -4, -5, -8, -8}))
 	//fmt.Println(solution.Calculate("(-1+(4+5+2)-3)-(6-8)"))
-	fmt.Println(solution.DiffWaysToCompute("9*4-8+2*11-2-4-9*5"))
+	//fmt.Println(solution.DiffWaysToCompute("9*4-8+2*11-2-4-9*5"))
+	fmt.Println(solution.CanPartitionKSubsets([]int{2, 2, 2, 3, 3, 1, 1, 1, 4, 1, 5}, 5))
 }

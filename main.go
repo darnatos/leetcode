@@ -160,5 +160,6 @@ func main() {
 	//solution.NextPermutation(p)
 	//fmt.Println(p)
 	//fmt.Println(solution.MaxScore([]int{4, 3, 8, 6}))
-	fmt.Println(solution.MinOperations([]int{2, 4, 9, 7, 6, 6, 4, 5, 3, 3, 11, 12, 11, 19, 16}))
+	//fmt.Println(solution.MinOperations([]int{2, 4, 9, 7, 6, 6, 4, 5, 3, 3, 11, 12, 11, 19, 16}))
+	fmt.Println(solution.GetPermutation(7, 131))
 }

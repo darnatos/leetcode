@@ -164,5 +164,6 @@ func main() {
 	//fmt.Println(solution.GetPermutation(7, 131))
 	//fmt.Println(solution.GetMinSwaps("5489355142", 31))
 	//fmt.Println(solution.CharacterReplacement("ABCCCNNDNNNANWNBBCAAXBBCBAAA", 7))
-	fmt.Println(solution.Construct2DArray([]int{1, 2, 3, 4, 5, 6}, 3, 2))
+	//fmt.Println(solution.Construct2DArray([]int{1, 2, 3, 4, 5, 6}, 3, 2))
+	fmt.Println(solution.NumOfPairs([]string{"777", "7", "77", "77"}, "7777"))
 }

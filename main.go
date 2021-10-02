@@ -163,5 +163,6 @@ func main() {
 	//fmt.Println(solution.MinOperations([]int{2, 4, 9, 7, 6, 6, 4, 5, 3, 3, 11, 12, 11, 19, 16}))
 	//fmt.Println(solution.GetPermutation(7, 131))
 	//fmt.Println(solution.GetMinSwaps("5489355142", 31))
-	fmt.Println(solution.CharacterReplacement("ABCCCNNDNNNANWNBBCAAXBBCBAAA", 7))
+	//fmt.Println(solution.CharacterReplacement("ABCCCNNDNNNANWNBBCAAXBBCBAAA", 7))
+	fmt.Println(solution.Construct2DArray([]int{1, 2, 3, 4, 5, 6}, 3, 2))
 }

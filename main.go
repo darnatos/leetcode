@@ -168,5 +168,6 @@ func main() {
 	//fmt.Println(solution.NumOfPairs([]string{"777", "7", "77", "77"}, "7777"))
 	//fmt.Println(solution.WaysToPartition([]int{22, 4, -25, -20, -15, 15, -16, 7, 19, -10, 0, -13, -14}, -33))
 	//fmt.Println(solution.BBMaxCoins([]int{8, 5, 1, 3}))
-	fmt.Println(solution.StoneGameIX([]int{1, 1, 1, 3}))
+	//fmt.Println(solution.StoneGameIX([]int{1, 1, 1, 3}))
+	fmt.Println(solution.NthUglyNumber(1000000000, 2, 740091218, 473796308))
 }

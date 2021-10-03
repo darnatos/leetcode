@@ -171,5 +171,6 @@ func main() {
 	//fmt.Println(solution.StoneGameIX([]int{1, 1, 1, 3}))
 	//fmt.Println(solution.NthUglyNumber(1000000000, 2, 740091218, 473796308))
 	//fmt.Println(solution.IsMatch("mississippi", "mis*is*p*."))
-	fmt.Println(solution.HIndexII([]int{1, 2, 3, 4, 5, 5, 5, 5, 5, 6}))
+	//fmt.Println(solution.HIndexII([]int{1, 2, 3, 4, 5, 5, 5, 5, 5, 6}))
+	fmt.Println(solution.MinimumSwap("xxyxyyx","yxxyxxy"))
 }

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"leetcode/solution/GcdSortOfAnArray"
+	"leetcode/solution"
 )
 
 func main() {
@@ -175,5 +175,6 @@ func main() {
 	//fmt.Println(solution.MinimumSwap("xxyxyyx","yxxyxxy"))
 	//fmt.Println(solution.SearchII([]int{2, 2, 2, 1, 2}, 1))
 	//fmt.Println(SingleThreadCPU.GetOrder([][]int{{19, 13}, {16, 9}, {21, 10}, {32, 25}, {37, 4}, {49, 24}, {2, 15}, {38, 41}, {37, 34}, {33, 6}, {45, 4}, {18, 18}, {46, 39}, {12, 24}}))
-	fmt.Println(GcdSortOfAnArray.GcdSort([]int{10, 5, 9, 3, 15}))
+	//fmt.Println(GcdSortOfAnArray.GcdSort([]int{10, 5, 9, 3, 15}))
+	fmt.Println(solution.FindDuplicates([]int{3, 2, 1, 2, 3, 4, 5, 4}))
 }

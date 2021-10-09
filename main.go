@@ -185,5 +185,5 @@ func main() {
 	//	[][]byte{{'o', 'a', 'a', 'n'}, {'e', 't', 'a', 'e'}, {'i', 'h', 'k', 'r'}, {'i', 'f', 'l', 'v'}},
 	//	[]string{"oath", "pea", "eat", "rain"}))
 	//fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
-	fmt.Println(solution.ProductExceptSelf([]int{10, 1, 2, 7, 6, 1, 5}))
+	fmt.Println(solution.MinOperationsMaxProfit([]int{10, 10, 6, 4, 7}, 3, 8))
 }

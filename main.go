@@ -181,7 +181,8 @@ func main() {
 	//fmt.Println(solution.FindMinMoves([]int{4, 1, 0, 2, 3}))
 	//fmt.Println(solution.NumTrees(19))
 	//fmt.Println(solution.ScoreOfStudents("3+5*2", []int{13, 0, 10, 13, 13, 16, 16}))
-	fmt.Println(solution.FindWords(
-		[][]byte{{'o', 'a', 'a', 'n'}, {'e', 't', 'a', 'e'}, {'i', 'h', 'k', 'r'}, {'i', 'f', 'l', 'v'}},
-		[]string{"oath", "pea", "eat", "rain"}))
+	//fmt.Println(solution.FindWords(
+	//	[][]byte{{'o', 'a', 'a', 'n'}, {'e', 't', 'a', 'e'}, {'i', 'h', 'k', 'r'}, {'i', 'f', 'l', 'v'}},
+	//	[]string{"oath", "pea", "eat", "rain"}))
+	fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 }

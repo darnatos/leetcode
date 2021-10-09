@@ -184,5 +184,6 @@ func main() {
 	//fmt.Println(solution.FindWords(
 	//	[][]byte{{'o', 'a', 'a', 'n'}, {'e', 't', 'a', 'e'}, {'i', 'h', 'k', 'r'}, {'i', 'f', 'l', 'v'}},
 	//	[]string{"oath", "pea", "eat", "rain"}))
-	fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
+	//fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
+	fmt.Println(solution.ProductExceptSelf([]int{10, 1, 2, 7, 6, 1, 5}))
 }

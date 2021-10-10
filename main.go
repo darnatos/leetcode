@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"leetcode/solution"
+	"leetcode/solution/StockPrice"
 )
 
 func main() {
@@ -186,5 +186,12 @@ func main() {
 	//	[]string{"oath", "pea", "eat", "rain"}))
 	//fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 	//fmt.Println(solution.MinOperationsMaxProfit([]int{10, 10, 6, 4, 7}, 3, 8))
-	fmt.Println(solution.CanReorderDoubled([]int{1, 1, 1, 2, 2, 2, -2, -4, 2, 4}))
+	//fmt.Println(solution.CanReorderDoubled([]int{1, 1, 1, 2, 2, 2, -2, -4, 2, 4}))
+
+	obj := StockPrice.Constructor()
+	obj.Update(3, 10)
+	param_2 := obj.Current()
+	param_3 := obj.Maximum()
+	param_4 := obj.Minimum()
+	fmt.Println(param_2, param_3, param_4)
 }

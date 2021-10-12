@@ -198,5 +198,8 @@ func main() {
 	//fmt.Println(solution.MinAbsDifference([]int{-2772, 6927, 4773, -2687, 7167, -8995, 2940, 8869, 526}, 969621127))
 	//fmt.Println(solution.RangeBitwiseAnd(12, 9898))
 	//fmt.Println(solution.GetMoneyAmount(15))
-	fmt.Println(solution.ShortestSuperstring([]string{"catg", "ctaagt", "gcta", "ttca", "atgcatc"}))
+	//fmt.Println(solution.ShortestSuperstring([]string{"catg", "ctaagt", "gcta", "ttca", "atgcatc"}))
+	fmt.Println(solution.MinimumDifference([]int{-52706, 66649, -25761, -25402, -78514, -22173, 64310, -94230,
+		30731, 5190, 23665, 42545, 4378, 11126, 45917, -57771, 76046, -12994, 2, -1, 0, 4, -2, -9}))
+	fmt.Println(solution.MinimumDifference([]int{25, 49, 39, 42, 57, 35}))
 }

@@ -203,5 +203,6 @@ func main() {
 	//	30731, 5190, 23665, 42545, 4378, 11126, 45917, -57771, 76046, -12994, 2, -1, 0, 4, -2, -9}))
 	//fmt.Println(solution.MinimumDifference([]int{25, 49, 39, 42, 57, 35}))
 	//fmt.Println(solution.LastStoneWeightII([]int{6, 11, 16, 3, 8, 5, 7, 31}))
-	fmt.Println(solution.IsPossible([]int{1, 2, 2, 3, 3, 3, 4, 4, 5, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 12, 13}))
+	//fmt.Println(solution.IsPossible([]int{1, 2, 2, 3, 3, 3, 4, 4, 5, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 12, 13}))
+	fmt.Println(solution.MajorityElement([]int{1, 1, 3, 3, 2, 3, 3, 5, 3, 3}))
 }

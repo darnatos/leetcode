@@ -205,5 +205,6 @@ func main() {
 	//fmt.Println(solution.LastStoneWeightII([]int{6, 11, 16, 3, 8, 5, 7, 31}))
 	//fmt.Println(solution.IsPossible([]int{1, 2, 2, 3, 3, 3, 4, 4, 5, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 12, 13}))
 	//fmt.Println(solution.MajorityElement([]int{1, 1, 3, 3, 2, 3, 3, 5, 3, 3}))
-	fmt.Println(solution.MajorityElement2([]int{1, 1, 3, 3, 1, 3, 3, 5, 1, 3}))
+	//fmt.Println(solution.MajorityElement2([]int{1, 1, 3, 3, 1, 3, 3, 5, 1, 3}))
+	fmt.Println(solution.AllPathsSourceTarget([][]int{{4, 3, 1}, {3, 2, 4}, {}, {4}, {}}))
 }

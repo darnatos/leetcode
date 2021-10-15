@@ -206,5 +206,6 @@ func main() {
 	//fmt.Println(solution.IsPossible([]int{1, 2, 2, 3, 3, 3, 4, 4, 5, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 12, 13}))
 	//fmt.Println(solution.MajorityElement([]int{1, 1, 3, 3, 2, 3, 3, 5, 3, 3}))
 	//fmt.Println(solution.MajorityElement2([]int{1, 1, 3, 3, 1, 3, 3, 5, 1, 3}))
-	fmt.Println(solution.AllPathsSourceTarget([][]int{{4, 3, 1}, {3, 2, 4}, {}, {4}, {}}))
+	//fmt.Println(solution.AllPathsSourceTarget([][]int{{4, 3, 1}, {3, 2, 4}, {}, {4}, {}}))
+	fmt.Println(solution.PacificAtlantic([][]int{{1, 2, 2, 3, 5}, {3, 2, 3, 4, 4}, {2, 4, 5, 3, 1}, {6, 7, 1, 4, 5}, {5, 1, 1, 2, 4}, {3, 3, 1, 3, 1}}))
 }

@@ -210,5 +210,6 @@ func main() {
 	//fmt.Println(solution.PacificAtlantic([][]int{{1, 2, 2, 3, 5}, {3, 2, 3, 4, 4}, {2, 4, 5, 3, 1}, {6, 7, 1, 4, 5}, {5, 1, 1, 2, 4}, {3, 3, 1, 3, 1}}))
 	//fmt.Println(solution.MaxProfit([]int{4, 1, 23, 5, 3, 2, 5, 3, 6, 17, 1, 15, 16, 16, 12, 13}))
 	//fmt.Println(solution.LongestDiverseString(1, 2, 5))
-	fmt.Println(solution.MaxProfit3([]int{3, 3, 5, 0, 0, 3, 1, 4}))
+	//fmt.Println(solution.MaxProfit3([]int{3, 3, 5, 0, 0, 3, 1, 4}))
+	fmt.Println(solution.MaxProfit4(4, []int{3, 3, 5, 0, 0, 3, 1, 4}))
 }

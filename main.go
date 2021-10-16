@@ -211,5 +211,6 @@ func main() {
 	//fmt.Println(solution.MaxProfit([]int{4, 1, 23, 5, 3, 2, 5, 3, 6, 17, 1, 15, 16, 16, 12, 13}))
 	//fmt.Println(solution.LongestDiverseString(1, 2, 5))
 	//fmt.Println(solution.MaxProfit3([]int{3, 3, 5, 0, 0, 3, 1, 4}))
-	fmt.Println(solution.MaxProfit4(4, []int{3, 3, 5, 0, 0, 3, 1, 4}))
+	//fmt.Println(solution.MaxProfit4(4, []int{3, 3, 5, 0, 0, 3, 1, 4}))
+	fmt.Println(solution.NnumDecodings2("132328**1*232****132089*2"))
 }

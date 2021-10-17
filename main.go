@@ -213,5 +213,6 @@ func main() {
 	//fmt.Println(solution.MaxProfit3([]int{3, 3, 5, 0, 0, 3, 1, 4}))
 	//fmt.Println(solution.MaxProfit4(4, []int{3, 3, 5, 0, 0, 3, 1, 4}))
 	//fmt.Println(solution.NnumDecodings2("132328**1*232****132089*2"))
-	fmt.Println(solution.KthSmallestProduct([]int{-2, -1, 0, 1, 2}, []int{-3, -1, 2, 4, 5}, 3))
+	//fmt.Println(solution.KthSmallestProduct([]int{-2, -1, 0, 1, 2}, []int{-3, -1, 2, 4, 5}, 3))
+	fmt.Println(solution.SecondMinimum(5, [][]int{{1, 2}, {1, 3}, {1, 4}, {3, 4}, {4, 5}}, 3, 5))
 }

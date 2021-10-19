@@ -218,5 +218,6 @@ func main() {
 	//fmt.Println(solution.FourSum([]int{1, 0, -1, 0, -2, 2}, 0))
 	//fmt.Println(solution.SubarraysWithKDistinct([]int{1, 2, 1, 2, 3}, 2))
 	//fmt.Println(solution.Candy2([]int{1, 3, 2, 3, 4, 5, 1, 5, 2, 0}))
-	fmt.Println(solution.MinOperationsFCTA([]int{1, 3, 2, 3, 4, 5, 1, 5, 2, 0}))
+	//fmt.Println(solution.MinOperationsFCTA([]int{1, 3, 2, 3, 4, 5, 1, 5, 2, 0}))
+	fmt.Println(solution.NumSquares(23))
 }

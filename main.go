@@ -221,5 +221,6 @@ func main() {
 	//fmt.Println(solution.MinOperationsFCTA([]int{1, 3, 2, 3, 4, 5, 1, 5, 2, 0}))
 	//fmt.Println(solution.NumSquares(23))
 	//fmt.Println(solution.GetSkyline([][]int{{2, 9, 10}, {3, 7, 15}, {5, 12, 12}, {15, 20, 10}, {19, 24, 8}}))
-	fmt.Println(solution.ReverseWords("  Bob    Loves  Alice   "))
+	//fmt.Println(solution.ReverseWords("  Bob    Loves  Alice   "))
+	fmt.Println(solution.BeautySum("abueueeeuqekaaksddasdaa"))
 }

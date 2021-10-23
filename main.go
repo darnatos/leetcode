@@ -224,5 +224,6 @@ func main() {
 	//fmt.Println(solution.ReverseWords("  Bob    Loves  Alice   "))
 	//fmt.Println(solution.BeautySum("abueueeeuqekaaksddasdaa"))
 	//fmt.Println(solution.RecoverArray(3, []int{-3, -2, -1, 0, 0, 1, 2, 3}))
-	fmt.Println(solution.CoinChange2(500, []int{3, 5, 7, 9, 11, 13}))
+	//fmt.Println(solution.CoinChange2(500, []int{3, 5, 7, 9, 11, 13}))
+	fmt.Println(solution.FindMin2([]int{3, 3, 1, 3}))
 }

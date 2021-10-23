@@ -226,5 +226,6 @@ func main() {
 	//fmt.Println(solution.RecoverArray(3, []int{-3, -2, -1, 0, 0, 1, 2, 3}))
 	//fmt.Println(solution.CoinChange2(500, []int{3, 5, 7, 9, 11, 13}))
 	//fmt.Println(solution.FindMin2([]int{3, 3, 1, 3}))
-	fmt.Println(solution.ValidateStackSequences([]int{1, 2, 3, 4, 5}, []int{4, 5, 3, 1, 2}))
+	//fmt.Println(solution.ValidateStackSequences([]int{1, 2, 3, 4, 5}, []int{4, 5, 3, 1, 2}))
+	fmt.Println(solution.RecoverArray2(3, []int{-3, -2, -1, 0, 0, 1, 2, 3}))
 }

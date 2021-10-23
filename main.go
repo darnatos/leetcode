@@ -222,5 +222,6 @@ func main() {
 	//fmt.Println(solution.NumSquares(23))
 	//fmt.Println(solution.GetSkyline([][]int{{2, 9, 10}, {3, 7, 15}, {5, 12, 12}, {15, 20, 10}, {19, 24, 8}}))
 	//fmt.Println(solution.ReverseWords("  Bob    Loves  Alice   "))
-	fmt.Println(solution.BeautySum("abueueeeuqekaaksddasdaa"))
+	//fmt.Println(solution.BeautySum("abueueeeuqekaaksddasdaa"))
+	fmt.Println(solution.RecoverArray(3, []int{-3, -2, -1, 0, 0, 1, 2, 3}))
 }

@@ -230,5 +230,6 @@ func main() {
 	//fmt.Println(solution.RecoverArray2(3, []int{-3, -2, -1, 0, 0, 1, 2, 3}))
 	//fmt.Println(solution.CountHighestScoreNodes([]int{-1, 2, 0, 2, 0}))
 	//fmt.Println(solution.NextBeautifulNumber(3133))
-	fmt.Println(solution.MinimumTime(5, [][]int{{1, 5}, {2, 5}, {3, 5}, {3, 4}, {4, 5}}, []int{1, 2, 3, 4, 5}))
+	//fmt.Println(solution.MinimumTime(5, [][]int{{1, 5}, {2, 5}, {3, 5}, {3, 4}, {4, 5}}, []int{1, 2, 3, 4, 5}))
+	fmt.Println(solution.MinNumberOfSemesters(5, [][]int{{1, 5}, {1, 3}, {1, 2}, {4, 2}, {4, 5}, {2, 5}, {1, 4}, {4, 3}, {3, 5}, {3, 2}}, 3))
 }

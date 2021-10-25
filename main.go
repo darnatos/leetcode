@@ -234,5 +234,6 @@ func main() {
 	//fmt.Println(solution.MinNumberOfSemesters(5, [][]int{{1, 5}, {1, 3}, {1, 2}, {4, 2}, {4, 5}, {2, 5}, {1, 4}, {4, 3}, {3, 5}, {3, 2}}, 3))
 	//fmt.Println(solution.GetCollisionTimes([][]int{{3, 4}, {5, 4}, {6, 3}, {9, 1}}))
 	//fmt.Println(solution.RemoveStones([][]int{{3, 4}, {5, 4}, {6, 3}, {9, 1}, {6, 4}}))
-	fmt.Println(solution.ShipWithinDays([]int{6, 5, 3, 7, 9, 1, 3, 2, 12, 11}, 7))
+	//fmt.Println(solution.ShipWithinDays([]int{6, 5, 3, 7, 9, 1, 3, 2, 12, 11}, 7))
+	fmt.Println(solution.DiagonalSort([][]int{{11,25,66,1,69,7},{23,55,17,45,15,52},{75,31,36,44,58,8},{22,27,33,25,68,4},{84,28,14,11,5,50}}))
 }

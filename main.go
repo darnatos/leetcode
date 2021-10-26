@@ -236,5 +236,6 @@ func main() {
 	//fmt.Println(solution.RemoveStones([][]int{{3, 4}, {5, 4}, {6, 3}, {9, 1}, {6, 4}}))
 	//fmt.Println(solution.ShipWithinDays([]int{6, 5, 3, 7, 9, 1, 3, 2, 12, 11}, 7))
 	//fmt.Println(solution.DiagonalSort([][]int{{11,25,66,1,69,7},{23,55,17,45,15,52},{75,31,36,44,58,8},{22,27,33,25,68,4},{84,28,14,11,5,50}}))
-	fmt.Println(solution.LenLongestFibSubseq1([]int{1, 3, 7, 11, 12, 14, 18}))
+	//fmt.Println(solution.LenLongestFibSubseq1([]int{1, 3, 7, 11, 12, 14, 18}))
+	fmt.Println(solution.MaxEnvelopes([][]int{{4, 5}, {4, 6}, {6, 7}, {2, 3}, {1, 1}, {4, 7}, {7, 8}, {6, 8}, {7, 7}, {7, 6}, {7, 2}}))
 }

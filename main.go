@@ -240,5 +240,6 @@ func main() {
 	//fmt.Println(solution.MaxEnvelopes([][]int{{4, 5}, {4, 6}, {6, 7}, {2, 3}, {1, 1}, {4, 7}, {7, 8}, {6, 8}, {7, 7}, {7, 6}, {7, 2}}))
 	//fmt.Println(solution.KthLargestNumber([]string{"2", "21", "12", "1"}, 4))
 	//fmt.Println(solution.SortColors([]int{2, 0, 1}))
-	fmt.Println(solution.MaxTwoEvents([][]int{{1, 3, 2}, {4, 5, 2}, {2, 4, 3}}))
+	//fmt.Println(solution.MaxTwoEvents([][]int{{1, 3, 2}, {4, 5, 2}, {2, 4, 3}}))
+	fmt.Println(solution.MaxSlidingWindow([]int{1, 3, -1, -3, 5, 3, 6, 7, 1, 2, 4}, 3))
 }

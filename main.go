@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"leetcode/solution"
+	"github.com/darnatos/leetcode/solution"
 )
 
 func main() {
@@ -239,5 +239,6 @@ func main() {
 	//fmt.Println(solution.LenLongestFibSubseq1([]int{1, 3, 7, 11, 12, 14, 18}))
 	//fmt.Println(solution.MaxEnvelopes([][]int{{4, 5}, {4, 6}, {6, 7}, {2, 3}, {1, 1}, {4, 7}, {7, 8}, {6, 8}, {7, 7}, {7, 6}, {7, 2}}))
 	//fmt.Println(solution.KthLargestNumber([]string{"2", "21", "12", "1"}, 4))
-	fmt.Println(solution.SortColors([]int{2, 0, 1}))
+	//fmt.Println(solution.SortColors([]int{2, 0, 1}))
+	fmt.Println(solution.MaxTwoEvents([][]int{{1, 3, 2}, {4, 5, 2}, {2, 4, 3}}))
 }

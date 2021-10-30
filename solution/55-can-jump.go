@@ -1,6 +1,6 @@
 package solution
 
-import "leetcode/util"
+import "github.com/darnatos/leetcode/util"
 
 func CanJump(nums []int) bool {
 	n := nums[0]

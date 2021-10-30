@@ -1,6 +1,6 @@
 package solution
 
-import "leetcode/util"
+import "github.com/darnatos/leetcode/util"
 
 func MinDistance(word1 string, word2 string) int {
 	m := len(word1)

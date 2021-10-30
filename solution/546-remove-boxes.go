@@ -1,6 +1,6 @@
 package solution
 
-import "leetcode/util"
+import "github.com/darnatos/leetcode/util"
 
 var dpTable [][][]int
 

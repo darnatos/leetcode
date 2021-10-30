@@ -1,6 +1,6 @@
 package solution
 
-import "leetcode/util"
+import "github.com/darnatos/leetcode/util"
 
 func Candy(ratings []int) int {
 	n := len(ratings)
@@ -27,4 +27,3 @@ func Candy(ratings []int) int {
 
 	return res
 }
-

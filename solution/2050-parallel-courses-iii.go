@@ -1,6 +1,6 @@
 package solution
 
-import "leetcode/util"
+import "github.com/darnatos/leetcode/util"
 
 func MinimumTime(n int, relations [][]int, time []int) int {
 	adj := make([][]int, n+1)

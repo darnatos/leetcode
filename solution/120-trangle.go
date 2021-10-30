@@ -1,6 +1,6 @@
 package solution
 
-import "leetcode/util"
+import "github.com/darnatos/leetcode/util"
 
 func MinimumTotal(triangle [][]int) int {
 	n := len(triangle)
@@ -10,7 +10,7 @@ func MinimumTotal(triangle [][]int) int {
 
 	tmp := make([]int, n)
 
-	for i := n-2; i >= 0; i-- {
+	for i := n - 2; i >= 0; i-- {
 		copy(tmp, dp)
 		for j := range triangle[i] {
 			dp[j] = triangle[i][j] + util.Min(tmp[j], tmp[j+1])

@@ -1,6 +1,6 @@
 package solution
 
-import "leetcode/util"
+import "github.com/darnatos/leetcode/util"
 
 func MaxProfit(prices []int) int {
 	s0 := make([]int, len(prices))

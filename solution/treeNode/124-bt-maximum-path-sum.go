@@ -1,7 +1,7 @@
 package treeNode
 
 import (
-	"leetcode/util"
+	"github.com/darnatos/leetcode/util"
 	"math"
 )
 
@@ -29,5 +29,5 @@ func mpsHelper(root *TreeNode, res *int) int {
 	m := root.Val
 
 	*res = util.Max(*res, l+m+r)
-	return util.Max(l, r)+m
+	return util.Max(l, r) + m
 }

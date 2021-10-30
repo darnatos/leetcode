@@ -1,7 +1,7 @@
 package solution
 
 import (
-	"leetcode/util"
+	"github.com/darnatos/leetcode/util"
 	"sort"
 )
 

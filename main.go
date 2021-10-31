@@ -242,5 +242,6 @@ func main() {
 	//fmt.Println(solution.SortColors([]int{2, 0, 1}))
 	//fmt.Println(solution.MaxTwoEvents([][]int{{1, 3, 2}, {4, 5, 2}, {2, 4, 3}}))
 	//fmt.Println(solution.MaxSlidingWindow([]int{1, 3, -1, -3, 5, 3, 6, 7, 1, 2, 4}, 3))
-	fmt.Println(solution.MountCombinations([]string{"rook", "queen", "bishop"}, [][]int{{2, 1}, {4, 3}, {1, 6}}))
+	//fmt.Println(solution.MountCombinations([]string{"rook", "queen", "bishop"}, [][]int{{2, 1}, {4, 3}, {1, 6}}))
+	fmt.Println(solution.PlatesBetweenCandles("***|**|*****|**||**|*", [][]int{{1, 17}, {4, 5}, {14, 17}, {5, 11}, {15, 16}}))
 }

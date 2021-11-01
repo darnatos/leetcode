@@ -245,7 +245,9 @@ func main() {
 	//fmt.Println(solution.MountCombinations([]string{"rook", "queen", "bishop"}, [][]int{{2, 1}, {4, 3}, {1, 6}}))
 	//fmt.Println(solution.PlatesBetweenCandles("***|**|*****|**||**|*", [][]int{{1, 17}, {4, 5}, {14, 17}, {5, 11}, {15, 16}}))
 	//fmt.Println(solution.MinimumOperations([]int{2, 4, 12, 5}, 6, 37))
-	board := [][]byte{{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'}, {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}}
-	solution.Solve(board)
-	fmt.Println(board)
+	//board := [][]byte{{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'}, {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}}
+	//solution.Solve(board)
+	//fmt.Println(board)
+
+	fmt.Println(solution.FindInMountainArray(3, &solution.MountainArray{1, 2, 3, 4, 5, 3, 1}))
 }

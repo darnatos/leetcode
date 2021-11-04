@@ -249,5 +249,6 @@ func main() {
 	//solution.Solve(board)
 	//fmt.Println(board)
 	//fmt.Println(solution.FindInMountainArray(3, &solution.MountainArray{1, 2, 3, 4, 5, 3, 1}))
-	fmt.Println(solution.SolveNQueens(6))
+	//fmt.Println(solution.SolveNQueens(6))
+	fmt.Println(solution.MaxSum([]int{1, 3, 4, 6, 8, 9}, []int{2, 4, 5, 8, 10, 11}))
 }

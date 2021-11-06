@@ -253,5 +253,6 @@ func main() {
 	//fmt.Println(solution.MaxSum([]int{1, 3, 4, 6, 8, 9}, []int{2, 4, 5, 8, 10, 11}))
 	//fmt.Println(solution.UniquePathsIII([][]int{{1, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 2, -1}}))
 	//fmt.Println(solution.UniquePathsWithObstacles([][]int{{0, 0, 1, 0}, {0, 0, 1, 0}, {0, 0, 0, 0}}))
-	fmt.Println(solution.SingleNumber3([]int{1, 3, 2, 4, 3, 1, 5, 2}))
+	//fmt.Println(solution.SingleNumber3([]int{1, 3, 2, 4, 3, 1, 5, 2}))
+	fmt.Println(solution.FindPeakGrid([][]int{{25, 37, 23, 37, 19}, {45, 19, 2, 43, 26}, {18, 1, 37, 44, 50}}))
 }

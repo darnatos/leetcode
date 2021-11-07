@@ -257,5 +257,6 @@ func main() {
 	//fmt.Println(solution.FindPeakGrid([][]int{{25, 37, 23, 37, 19}, {45, 19, 2, 43, 26}, {18, 1, 37, 44, 50}}))
 	//fmt.Println(solution.MinimizedMaximum(22, []int{25, 11, 29, 6, 24, 4, 29, 18, 6, 13, 25, 30}))
 	//fmt.Println(solution.CountVowelSubstrings("cuaieuouac"))
-	fmt.Println(solution.CountVowels("noosabasboosa"))
+	//fmt.Println(solution.CountVowels("noosabasboosa"))
+	fmt.Println(solution.MaximalPathQuality([]int{1, 2, 3, 4}, [][]int{{0, 1, 10}, {1, 2, 11}, {2, 3, 12}, {1, 3, 13}}, 50))
 }

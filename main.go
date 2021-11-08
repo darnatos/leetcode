@@ -259,6 +259,6 @@ func main() {
 	//fmt.Println(solution.CountVowelSubstrings("cuaieuouac"))
 	//fmt.Println(solution.CountVowels("noosabasboosa"))
 	//fmt.Println(solution.MaximalPathQuality([]int{1, 2, 3, 4}, [][]int{{0, 1, 10}, {1, 2, 11}, {2, 3, 12}, {1, 3, 13}}, 50))
-	fmt.Println(solution.Multiply("12","505"))
-
+	//fmt.Println(solution.Multiply("12","505"))
+	fmt.Println(solution.IsInterleave("dbbca", "aabcc", "aadbbcbcac"))
 }

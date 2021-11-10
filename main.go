@@ -263,5 +263,6 @@ func main() {
 	//fmt.Println(solution.IsInterleave("dbbca", "aabcc", "aadbbcbcac"))
 	//fmt.Println(solution.DecodeAtIndex("a2b3c4d5e6f7g8h9", 99))
 	//fmt.Println(solution.MaxProfit2([]int{1, 2, 3, 4, 5, 6, 1, 3, 2, 6, 1, 2, 1, 0, 1, 0, 0}))
-	fmt.Println(solution.SplitString("0100009998"))
+	//fmt.Println(solution.SplitString("0100009998"))
+	fmt.Println(solution.IsBoomerang([][]int{{0, 1}, {1, 0}, {0, 1}}))
 }

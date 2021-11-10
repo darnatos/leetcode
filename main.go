@@ -261,5 +261,6 @@ func main() {
 	//fmt.Println(solution.MaximalPathQuality([]int{1, 2, 3, 4}, [][]int{{0, 1, 10}, {1, 2, 11}, {2, 3, 12}, {1, 3, 13}}, 50))
 	//fmt.Println(solution.Multiply("12","505"))
 	//fmt.Println(solution.IsInterleave("dbbca", "aabcc", "aadbbcbcac"))
-	fmt.Println(solution.DecodeAtIndex("a2b3c4d5e6f7g8h9", 99))
+	//fmt.Println(solution.DecodeAtIndex("a2b3c4d5e6f7g8h9", 99))
+	fmt.Println(solution.MaxProfit2([]int{1, 2, 3, 4, 5, 6, 1, 3, 2, 6, 1, 2, 1, 0, 1, 0, 0}))
 }

@@ -265,5 +265,6 @@ func main() {
 	//fmt.Println(solution.MaxProfit2([]int{1, 2, 3, 4, 5, 6, 1, 3, 2, 6, 1, 2, 1, 0, 1, 0, 0}))
 	//fmt.Println(solution.SplitString("0100009998"))
 	//fmt.Println(solution.IsBoomerang([][]int{{0, 1}, {1, 0}, {0, 1}}))
-	fmt.Println(solution.FindMinHeightTrees(6, [][]int{{3, 0}, {3, 1}, {3, 2}, {3, 4}, {5, 4}}))
+	//fmt.Println(solution.FindMinHeightTrees(6, [][]int{{3, 0}, {3, 1}, {3, 2}, {3, 4}, {5, 4}}))
+	fmt.Println(solution.SubarrayBitwiseORs([]int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 123, 12, 3412, 341, 234, 235, 43, 62, 3573, 685, 4, 64, 9, 46, 79567, 95, 679, 56, 79, 5679, 3, 45, 4, 5384, 583, 4561, 9, 4, 64, 7, 2475, 2347723, 47}))
 }

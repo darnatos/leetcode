@@ -271,5 +271,6 @@ func main() {
 	//fmt.Println(solution.CountTriplets([]int{3, 2, 5, 1, 7, 828}))
 	//fmt.Println(solution.FindNumOfValidWords([]string{"aaaa", "asas", "able", "ability", "actt", "actor", "access"},
 	//	[]string{"aboveyz", "abrodyz", "abslute", "absoryz", "actresz", "gaswxyz"}))
-	fmt.Println(solution.DailyTemperatures([]int{73, 74, 75, 71, 69, 72, 76, 73}))
+	//fmt.Println(solution.DailyTemperatures([]int{73, 74, 75, 71, 69, 72, 76, 73}))
+	fmt.Println(solution.ReplaceElements([]int{1, 3, 6, 6, 7, 1, 2}))
 }

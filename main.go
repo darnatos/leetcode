@@ -269,6 +269,7 @@ func main() {
 	//fmt.Println(solution.SubarrayBitwiseORs([]int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 123, 12, 3412, 341, 234, 235, 43, 62, 3573, 685, 4, 64, 9, 46, 79567, 95, 679, 56, 79, 5679, 3, 45, 4, 5384, 583, 4561, 9, 4, 64, 7, 2475, 2347723, 47}))
 	//fmt.Println(solution.MinKBitFlips([]int{0, 0, 0, 1, 0, 1, 1, 0}, 3))
 	//fmt.Println(solution.CountTriplets([]int{3, 2, 5, 1, 7, 828}))
-	fmt.Println(solution.FindNumOfValidWords([]string{"aaaa", "asas", "able", "ability", "actt", "actor", "access"},
-		[]string{"aboveyz", "abrodyz", "abslute", "absoryz", "actresz", "gaswxyz"}))
+	//fmt.Println(solution.FindNumOfValidWords([]string{"aaaa", "asas", "able", "ability", "actt", "actor", "access"},
+	//	[]string{"aboveyz", "abrodyz", "abslute", "absoryz", "actresz", "gaswxyz"}))
+	fmt.Println(solution.DailyTemperatures([]int{73, 74, 75, 71, 69, 72, 76, 73}))
 }

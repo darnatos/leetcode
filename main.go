@@ -272,5 +272,6 @@ func main() {
 	//fmt.Println(solution.FindNumOfValidWords([]string{"aaaa", "asas", "able", "ability", "actt", "actor", "access"},
 	//	[]string{"aboveyz", "abrodyz", "abslute", "absoryz", "actresz", "gaswxyz"}))
 	//fmt.Println(solution.DailyTemperatures([]int{73, 74, 75, 71, 69, 72, 76, 73}))
-	fmt.Println(solution.ReplaceElements([]int{1, 3, 6, 6, 7, 1, 2}))
+	//fmt.Println(solution.ReplaceElements([]int{1, 3, 6, 6, 7, 1, 2}))
+	fmt.Println(solution.FriendRequests(5, [][]int{{0, 1}, {1, 2}, {2, 3}}, [][]int{{0, 4}, {1, 2}, {3, 1}, {3, 4}}))
 }

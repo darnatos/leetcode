@@ -275,5 +275,6 @@ func main() {
 	//fmt.Println(solution.ReplaceElements([]int{1, 3, 6, 6, 7, 1, 2}))
 	//fmt.Println(solution.FriendRequests(5, [][]int{{0, 1}, {1, 2}, {2, 3}}, [][]int{{0, 4}, {1, 2}, {3, 1}, {3, 4}}))
 	//fmt.Println(solution.DecodeCiphertext("iveo    eed   l te   olc", 4))
-	fmt.Println(solution.TimeRequiredToBuy([]int{5, 1, 1, 1}, 0))
+	//fmt.Println(solution.TimeRequiredToBuy([]int{5, 1, 1, 1}, 0))
+	fmt.Println(solution.MaximumBeauty([][]int{{1, 2}, {3, 2}, {2, 4}, {5, 6}, {3, 5}}, []int{1, 2, 3, 4, 5, 6}))
 }

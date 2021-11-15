@@ -1,27 +1,16 @@
 package solution
 
 func GenerateParenthesis(n int) []string {
-	return helper(n)
-}
-
-func helper(n int) []string {
-	if n == 1 {
-		return []string{"()"}
-	}
-	s := helper(n-1)
-
-	m := make(map[string]bool, len(s))
-	for p := range s {
-		for i := range s[p] {
-			tmp := s[p][0:i]+"()"+s[p][i:]
-			m[tmp] = true
+	dp := make([][]string, n+1)
+	dp[0] = []string{""}
+	for i := 1; i <= n; i++ {
+		for j := 0; j < i; j++ {
+			for _, ls := range dp[j] {
+				for _, rs := range dp[i-1-j] {
+					dp[i] = append(dp[i], "("+ls+")"+rs)
+				}
+			}
 		}
 	}
-
-	u := make([]string, 0,len(m))
-	for k := range m {
-		u = append(u, k)
-	}
-
-	return u
+	return dp[n]
 }

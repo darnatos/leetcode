@@ -279,5 +279,6 @@ func main() {
 	//fmt.Println(solution.MaximumBeauty([][]int{{1, 2}, {3, 2}, {2, 4}, {5, 6}, {3, 5}}, []int{1, 2, 3, 4, 5, 6}))
 	//fmt.Println(solution.FindKthNumber(1234, 30000, 632136))
 	//fmt.Println(solution.LargestDivisibleSubset([]int{3, 2, 1, 6, 7, 4, 85, 54, 3, 64, 8, 27, 8, 9, 128, 16, 26, 27, 28, 81, 18}))
-	fmt.Println(solution.FindDiagonalOrder([][]int{{1, 2, 3, 4, 5}, {6, 7}, {8}, {9, 10, 11}, {12, 13, 14, 15, 16}}))
+	//fmt.Println(solution.FindDiagonalOrder([][]int{{1, 2, 3, 4, 5}, {6, 7}, {8}, {9, 10, 11}, {12, 13, 14, 15, 16}}))
+	fmt.Println(solution.SingleNonDuplicate([]int{1, 1, 2, 2, 3, 3, 4, 4, 52}))
 }

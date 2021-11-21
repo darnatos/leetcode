@@ -284,5 +284,6 @@ func main() {
 	//fmt.Println(solution.LetterCombinations("2987"))
 	//fmt.Println(solution.KMirror(3, 7))
 	//fmt.Println(solution.WateringPlants([]int{1, 4, 3, 3, 4, 5}, 5))
-	fmt.Println(solution.MaxDistance([]int{1, 4, 3, 3, 4, 5}))
+	//fmt.Println(solution.MaxDistance([]int{1, 4, 3, 3, 4, 5}))
+	fmt.Println(solution.JobScheduling([]int{1, 2, 3, 4}, []int{3, 4, 5, 6}, []int{50, 140, 100, 20}))
 }

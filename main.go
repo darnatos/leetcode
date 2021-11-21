@@ -283,5 +283,6 @@ func main() {
 	//fmt.Println(solution.SingleNonDuplicate([]int{1, 1, 2, 2, 3, 3, 4, 4, 52}))
 	//fmt.Println(solution.LetterCombinations("2987"))
 	//fmt.Println(solution.KMirror(3, 7))
-	fmt.Println(solution.WateringPlants([]int{1, 4, 3, 3, 4, 5}, 5))
+	//fmt.Println(solution.WateringPlants([]int{1, 4, 3, 3, 4, 5}, 5))
+	fmt.Println(solution.MaxDistance([]int{1, 4, 3, 3, 4, 5}))
 }

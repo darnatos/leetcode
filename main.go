@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"github.com/darnatos/leetcode/solution"
+)
+
 func main() {
 	//fmt.Println(solution.ReformatDate("6th Jun 1933"))
 	//fmt.Println(solution.LongestSubsequence([]int{1, 5, 7, 8, 5, 3, 4, 2, 1}, -2))
@@ -281,4 +286,5 @@ func main() {
 	//fmt.Println(solution.WateringPlants([]int{1, 4, 3, 3, 4, 5}, 5))
 	//fmt.Println(solution.MaxDistance([]int{1, 4, 3, 3, 4, 5}))
 	//fmt.Println(solution.JobScheduling([]int{1, 2, 3, 4}, []int{3, 4, 5, 6}, []int{50, 140, 100, 20}))
+	fmt.Println(solution.SmallestDistancePair([]int{23, 5, 26, 47, 85, 3, 1, 382}, 12))
 }

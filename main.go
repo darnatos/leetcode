@@ -290,5 +290,6 @@ func main() {
 	//fmt.Println(solution.MaximalRectangle([][]byte{{'1', '0', '1'}, {'1', '1', '1'}, {'1', '1', '0'}}))
 	//fmt.Println(solution.CountWords([]string{"leetcode", "is", "amazing", "as", "is"}, []string{"amazing", "leetcode", "is"}))
 	//fmt.Println(solution.MinimumBuckets(".HH.H.HH..H."))
-	fmt.Println(solution.CountPyramids([][]int{{0, 1, 1, 0}, {1, 1, 1, 1}}))
+	//fmt.Println(solution.CountPyramids([][]int{{0, 1, 1, 0}, {1, 1, 1, 1}}))
+	fmt.Println(solution.FindAllPeople(6, [][]int{{0, 2, 1}, {1, 3, 1}, {4, 5, 1}}, 1))
 }

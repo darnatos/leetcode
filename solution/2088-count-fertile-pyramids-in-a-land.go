@@ -1,6 +1,6 @@
 package solution
 
-func CountPyramids(grid [][]int) int {
+func FindAllPeopleCountPyramids(grid [][]int) int {
 	res := countPyramid(grid)
 	for i, j := 0, len(grid)-1; i < j; i, j = i+1, j-1 {
 		grid[i], grid[j] = grid[j], grid[i]

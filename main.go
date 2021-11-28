@@ -293,5 +293,6 @@ func main() {
 	//fmt.Println(solution.CountPyramids([][]int{{0, 1, 1, 0}, {1, 1, 1, 1}}))
 	//fmt.Println(solution.FindAllPeople(6, [][]int{{0, 2, 1}, {1, 3, 1}, {4, 5, 1}}, 1))
 	//fmt.Println(solution.MinimumDeletions([]int{192, 35, 63, 6, 11, 7, 338, -912, -125, 125, 125, -25, -362}))
-	fmt.Println(solution.GetAverages([]int{7, 4, 3, 9, 1, 8, 5, 2, 6}, 2))
+	//fmt.Println(solution.GetAverages([]int{7, 4, 3, 9, 1, 8, 5, 2, 6}, 2))
+	fmt.Println(solution.CountSubIslands([][]int{{1, 0, 1}}, [][]int{{1, 0, 0}}))
 }

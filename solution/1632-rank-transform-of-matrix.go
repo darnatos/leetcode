@@ -4,12 +4,6 @@ import (
 	"sort"
 )
 
-type UnionFind interface {
-	Find(u int) int
-	Union(u, v int)
-	GetGroups() map[int][]int
-}
-
 type DisjointSet map[int]int
 
 func (ds DisjointSet) Find(u int) int {

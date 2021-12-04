@@ -5,8 +5,13 @@ import (
 	"sort"
 )
 
-type UnionFind struct {
+type UFImpl struct {
 	parent []int
+}
+
+type UnionFind interface {
+	Find(u int) int
+	Union(u, v int)
 }
 
 func Constructor(n int) UnionFind {
@@ -14,11 +19,11 @@ func Constructor(n int) UnionFind {
 	for i := range parent {
 		parent[i] = i
 	}
-	uf := UnionFind{parent: parent}
+	uf := UFImpl{parent: parent}
 	return uf
 }
 
-func (uf UnionFind) Find(u int) int {
+func (uf UFImpl) Find(u int) int {
 	if uf.parent[u] == u {
 		return u
 	}
@@ -26,7 +31,7 @@ func (uf UnionFind) Find(u int) int {
 	return uf.parent[u]
 }
 
-func (uf UnionFind) Union(u, v int) {
+func (uf UFImpl) Union(u, v int) {
 	p, q := uf.Find(u), uf.Find(v)
 	if p != q {
 		uf.parent[p] = q

@@ -295,5 +295,6 @@ func main() {
 	//fmt.Println(solution.MinimumDeletions([]int{192, 35, 63, 6, 11, 7, 338, -912, -125, 125, 125, -25, -362}))
 	//fmt.Println(solution.GetAverages([]int{7, 4, 3, 9, 1, 8, 5, 2, 6}, 2))
 	//fmt.Println(solution.CountSubIslands([][]int{{1, 0, 1}}, [][]int{{1, 0, 0}}))
-	fmt.Println(solution.NumSquarefulPerms([]int{1, 17, 8}))
+	//fmt.Println(solution.NumSquarefulPerms([]int{1, 17, 8}))
+	fmt.Println(solution.FindRedundantConnection([][]int{{1, 4}, {3, 4}, {1, 3}, {1, 2}, {4, 5}}))
 }

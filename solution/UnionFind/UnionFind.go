@@ -1,10 +1,37 @@
-package GcdSortOfAnArray
+package UnionFind
 
 import (
-	"github.com/darnatos/leetcode/solution/UnionFind"
 	"math"
 	"sort"
 )
+
+type UnionFind struct {
+	parent []int
+}
+
+func Constructor(n int) UnionFind {
+	parent := make([]int, n+1)
+	for i := range parent {
+		parent[i] = i
+	}
+	uf := UnionFind{parent: parent}
+	return uf
+}
+
+func (uf UnionFind) Find(u int) int {
+	if uf.parent[u] == u {
+		return u
+	}
+	uf.parent[u] = uf.Find(uf.parent[u])
+	return uf.parent[u]
+}
+
+func (uf UnionFind) Union(u, v int) {
+	p, q := uf.Find(u), uf.Find(v)
+	if p != q {
+		uf.parent[p] = q
+	}
+}
 
 func GcdSort(nums []int) bool {
 	maxNum := math.MinInt32
@@ -14,7 +41,7 @@ func GcdSort(nums []int) bool {
 		}
 	}
 	spf := seize(maxNum)
-	uf := UnionFind.Constructor(maxNum)
+	uf := Constructor(maxNum)
 
 	for _, v := range nums {
 		for f := v; f > 1; f /= spf[f] {

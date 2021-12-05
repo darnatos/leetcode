@@ -16,25 +16,21 @@ func ValidArrangement(pairs [][]int) [][]int {
 		}
 	}
 
-	route := make([]int, 0, len(pairs)+1)
+	res := make([][]int, 0, len(pairs))
 
-	vaDfs(s, cur, &route)
+	vaDfs(s, cur, &res)
 
-	for i, j := 0, len(route)-1; i < j; i, j = i+1, j-1 {
-		route[i], route[j] = route[j], route[i]
-	}
-	res := make([][]int, len(pairs))
-	for i := 0; i < len(res); i++ {
-		res[i] = []int{route[i], route[i+1]}
+	for i, j := 0, len(res)-1; i < j; i, j = i+1, j-1 {
+		res[i], res[j] = res[j], res[i]
 	}
 	return res
 }
 
-func vaDfs(s map[int][]int, cur int, res *[]int) {
+func vaDfs(s map[int][]int, cur int, res *[][]int) {
 	for len(s[cur]) != 0 {
 		next := s[cur][0]
 		s[cur] = s[cur][1:]
 		vaDfs(s, next, res)
+		*res = append(*res, []int{cur, next})
 	}
-	*res = append(*res, cur)
 }

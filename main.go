@@ -296,5 +296,6 @@ func main() {
 	//fmt.Println(solution.GetAverages([]int{7, 4, 3, 9, 1, 8, 5, 2, 6}, 2))
 	//fmt.Println(solution.CountSubIslands([][]int{{1, 0, 1}}, [][]int{{1, 0, 0}}))
 	//fmt.Println(solution.NumSquarefulPerms([]int{1, 17, 8}))
-	fmt.Println(solution.FindRedundantConnection([][]int{{1, 4}, {3, 4}, {1, 3}, {1, 2}, {4, 5}}))
+	//fmt.Println(solution.FindRedundantConnection([][]int{{1, 4}, {3, 4}, {1, 3}, {1, 2}, {4, 5}}))
+	fmt.Println(solution.ValidArrangement([][]int{{8, 5}, {8, 7}, {0, 8}, {0, 5}, {7, 0}, {5, 0}, {0, 7}, {8, 0}, {7, 8}}))
 }

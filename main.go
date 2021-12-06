@@ -298,5 +298,8 @@ func main() {
 	//fmt.Println(solution.NumSquarefulPerms([]int{1, 17, 8}))
 	//fmt.Println(solution.FindRedundantConnection([][]int{{1, 4}, {3, 4}, {1, 3}, {1, 2}, {4, 5}}))
 	//fmt.Println(solution.ValidArrangement([][]int{{8, 5}, {8, 7}, {0, 8}, {0, 5}, {7, 0}, {5, 0}, {0, 7}, {8, 0}, {7, 8}}))
-	fmt.Println(solution.FindEvenNumbers([]int{5, 0, 2, 4, 1, 7, 8, 3, 8, 1, 9, 9, 7, 8, 0, 0}))
+	//fmt.Println(solution.FindEvenNumbers([]int{5, 0, 2, 4, 1, 7, 8, 3, 8, 1, 9, 9, 7, 8, 0, 0}))
+	fmt.Println(solution.PossiblyEquals("a3b2", "12c1ba"))
+	fmt.Println(solution.PossiblyEquals("i18n", "internationalization"))
+	fmt.Println(solution.PossiblyEquals("g891", "112s"))
 }

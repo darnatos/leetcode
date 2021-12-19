@@ -303,5 +303,6 @@ func main() {
 	//fmt.Println(solution.PossiblyEquals("i18n", "internationalization"))
 	//fmt.Println(solution.PossiblyEquals("g891", "112s"))
 	//fmt.Println(solution.FindTheLongestSubstring("eleetminicoworoep"))
-	fmt.Println(solution.CanReach([]int{4, 2, 3, 0, 3, 1, 2}, 5))
+	//fmt.Println(solution.CanReach([]int{4, 2, 3, 0, 3, 1, 2}, 5))
+	fmt.Println(solution.DecodeString("a3[bc2[a]]"))
 }

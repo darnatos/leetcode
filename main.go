@@ -306,5 +306,6 @@ func main() {
 	//fmt.Println(solution.CanReach([]int{4, 2, 3, 0, 3, 1, 2}, 5))
 	//fmt.Println(solution.DecodeString("a3[bc2[a]]"))
 	//fmt.Println(solution.Calculate2(" 23*15-254/2/3*5/ 1*8/6*3+2015"))
-	fmt.Println(solution.EarliestFullBloom([]int{1, 4, 3}, []int{2, 3, 1}))
+	//fmt.Println(solution.EarliestFullBloom([]int{1, 4, 3}, []int{2, 3, 1}))
+	fmt.Println(solution.ColorTheGrid(3, 3))
 }
